@@ -6,4 +6,8 @@ Purpose: This program is to demonstrate gathering user input, formatting the dat
 
 
 def average():
-  pass
+  score1 = input("Score 1: ")
+  score2 = input("Score 2: ")
+  score3 = input("Score 3: ")
+  number_of_tests = 3
+  return (score1 + score2 + score3) / number_of_tests
